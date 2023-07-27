@@ -14,6 +14,7 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/layout/layout/mobile-menu.css" />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
@@ -50,9 +51,19 @@
             </li>
           </ul>
         </address>
+        <button
+          class="burger-btn js-open-menu"
+          type="button"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg class="burger-icon" width="30" height="19">
+            <use href="./images/icons.svg#icon-burger"></use>
+          </svg>
+        </button>
       </div>
     </header>
-
+<!-- тут повинна бути кнопка бургер, до неъ з mobile-menu-js ми додаємо клас і з майстерні додаємо аріа  -->
     <main>
       <section class="hero">
         <div class="container">
@@ -562,6 +573,82 @@
         </form>
       </div>
     </div>
+
+    <div class="mobile-menu js-menu-container" id="mobile-menu">
+      <button class="close-button js-close-menu" type="button">
+        <svg width="8" height="8">
+          <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
+        </svg>
+      </button>
+      <nav class="mobile-nav">
+        <ul>
+          <li>
+            <a href="">Studio</a>
+          </li>
+          <li>
+            <a href="">Portfolio</a>
+          </li>
+          <li>
+            <a href="">Contacts</a>
+          </li>
+        <address class="mobile-address">
+          <ul>
+            <li>
+              <a href="tel:+11 (000) 111-11-11">+11 (000) 111-11-11</a>
+            </li>
+            <li>
+              <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+          </ul>
+        </address>
+        <ul class="list social-list">
+            <li class="social-item">
+              <a class="social-link" href="">
+                <svg class="social-icon" width="24" height="24">
+                  <use
+                    href="./images/icons/iconmoon/sprite.svg#icon-instagram"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-item">
+              <a class="social-link" href="">
+                <svg class="social-icon" width="24" height="24">
+                  <use
+                    href="./images/icons/iconmoon/sprite.svg#icon-twitter"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-item">
+              <a class="social-link" href="">
+                <svg class="social-icon" width="24" height="24">
+                  <use
+                    href="./images/icons/iconmoon/sprite.svg#icon-facebook"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-item">
+              <a class="social-link" href="">
+                <svg class="social-icon" width="24" height="24">
+                  <use
+                    href="./images/icons/iconmoon/sprite.svg#icon-linkedin"
+                  ></use>
+                </svg>
+              </a>
+            </li>
+        </ul>
+      </nav>
+    </div>
+
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="js/mobile-menu.js"></script>
     <script src="./js/modal.js"></script>
   </body>
 </html>
