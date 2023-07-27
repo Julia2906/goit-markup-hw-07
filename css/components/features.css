@@ -1,0 +1,56 @@
+/*=================== Features ===================== */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+  
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+  /* 
+  .features {
+    padding: 120px 0 120px;
+  } */
+  
+  .features .title {
+    margin-bottom: 8px;
+  
+    color: var(--second-text-color);
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+  }
+  
+  .features-description {
+    color: var(--global-text-color);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+  }
+  .features-list {
+    display: flex;
+    gap: 24px;
+  }
+  
+  .features-item {
+    max-width: 264px;
+    flex-direction: column;
+  }
+  
+  .features-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    border-radius: 4px;
+    background-color: #f4f4fd;
+    height: 112px;
+    margin-bottom: 8px;
+  }
+  /* ================ Features =========================*/

@@ -1,0 +1,79 @@
+/* ==================== Team ==========================*/
+
+.team-container {
+    padding: 32px 0;
+    text-align: center;
+  }
+  
+  .team {
+    background-color: var(--background-clor-grey);
+  }
+  
+  .team-name {
+    color: var(--second-text-color);
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+    font-weight: 500;
+    margin-bottom: 8px;
+  }
+  
+  .team-position {
+    color: var(--global-text-color);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    margin-bottom: 8px;
+  }
+  
+  .team-item {
+    border-radius: 0px 0px 4px 4px;
+    background-color: var(--background-color-white);
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+      0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+      0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+  }
+  
+  .team-list {
+    display: flex;
+    gap: 24px;
+  }
+  
+  .social-list {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+  }
+  
+  .social-item {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .social-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    transition-property: background-color;
+    transition-duration: var(--transition-dur);
+    transition-timing-function: var(--transition-func);
+  
+    background-color: var(--global-color-blue);
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .social-icon {
+    fill: var(--background-clor-grey);
+  }
+  .social-link:hover {
+    background-color: var(--active-button);
+  }
+  
+  .social-link:focus {
+    background-color: var(--active-button);
+  }
+  /* ======================Team ========================*/
+  

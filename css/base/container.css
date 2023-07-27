@@ -1,14 +1,7 @@
 .container {
-  max-width: 1158px;
+  max-width: 428px;
   margin: 0 auto;
   padding: 0 16px;
-}
-
-.main-container {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  column-gap: 120px;
 }
 
 @media screen and (min-width: 768px) {
@@ -20,5 +13,7 @@
 @media screen and (min-width: 1158px) {
   .container {
     max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
