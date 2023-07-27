@@ -565,7 +565,7 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  fill: transparent;
+  /* fill: transparent; */
   transition-property: background-color, border, fill;
   transition-duration: var(--transition-dur);
   transition-timing-function: var(--transition-func);

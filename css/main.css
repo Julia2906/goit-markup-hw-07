@@ -3,4 +3,4 @@
 @import "./base/container.css";
 @import "./base/section.css";
 @import "./layout/header.css";
-@import "./layout/hero.css";
+@import "./components/hero.css";
