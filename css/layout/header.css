@@ -1,5 +1,45 @@
+.site-nav {
+  display: none;
+}
 
-.header-nav {
+.auth-nav {
+  display: none;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  margin-right: 76px;
+  padding: 24px 0;
+
+  font-family: var(--second-font);
+  color: var(--global-color-blue);
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.studio {
+  color: var(--second-text-color);
+}
+
+.burger-btn {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+
+.burger-icon {
+  stroke: #2e2f42;
+  line-height: 0;
+}
+
+/* .header-nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -18,23 +58,6 @@
     font-weight: 800;
     text-transform: uppercase;
   }
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .header-container {
     display: flex;
@@ -135,4 +158,4 @@
   .studio {
     color: var(--second-text-color);
   }
-  
+   */
