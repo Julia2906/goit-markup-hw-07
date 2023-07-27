@@ -1,0 +1,16 @@
+:root {
+    --global-font: 'Roboto', sans-serif;
+    --second-font: 'Raleway', sans-serif;
+    --global-text-color: #434455;
+    --second-text-color: #2e2f42;
+    --background-color-white: #ffffff;
+    --background-clor-grey: #f4f4fd;
+    --global-color-blue: #4d5ae5;
+    --active-button: #404bbf;
+    --portfolio-button: #e7e9fc;
+    --customers-border: #8e8f99;
+    --footer-active-icons: #31d0aa;
+    --dairy: #fcfcfc;
+    --transition-dur: 250ms;
+    --transition-func: cubic-bezier(0.4, 0, 0.2, 1);
+  }
