@@ -15,17 +15,66 @@
     pointer-events: none;
   }
   
-  .is-open {
+ .mobile-menu.is-open {
     opacity: 1;
     visibility: visible;
     pointer-events: all;
   }
   
   .close-button {
-    background-color: transparent;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  margin-left: auto;
+  z-index: 100;
+  background-color: transparent;
+  border: none
   }
   
   .mobile-nav {
     margin-bottom: auto;
   }
   
+  .mobile-menu-item:not(:last-child){
+    margin-bottom: 40px;
+  }
+
+  .mobile-menu-contacts{
+    margin-bottom: 48px;
+    margin-top: auto;
+  }
+
+  .mobile-menu-contact:not(:last-child){
+    margin-bottom: 40px;
+
+  }
+
+  .mobile-menu-link{
+    font-size: 36px;
+font-weight: 700;
+line-height: 1.1;
+letter-spacing: 0.72px;
+text-transform: capitalize;
+color: #2E2F42;
+  }
+
+  .link-active:hover,
+  .link-active:focus{
+    color: #404BBF;
+  }
+
+  .mobile-menu-contact-link{
+    font-size: 36px;
+font-weight: 700;
+line-height: 1.1;
+letter-spacing: 0.72px;
+text-transform: capitalize;
+  }
+
+
+
+
+
+  @media screen  and (min-width:768px){
+
+  }
