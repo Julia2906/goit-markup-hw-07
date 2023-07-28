@@ -1,7 +1,7 @@
-.footer{
+.footer {
   padding-top: 96px;
-    padding-bottom: 96px;
-    background-color: var(--second-text-color);
+  padding-bottom: 96px;
+  background-color: var(--second-text-color);
 }
 
 .footer-container {
@@ -10,10 +10,9 @@
   align-items: baseline; */
 }
 
-.footer-logo{
+.footer-logo {
   align-items: center;
   justify-content: center;
-
 }
 
 .footer .logo {
@@ -56,13 +55,13 @@
 }
 
 .footer .social-link:hover,
-.social-link:focus {
+.footer .social-link:focus {
   background-color: var(--footer-active-icons);
 }
 
 .footer .social-list {
   gap: 16px;
-} 
+}
 
 .footer-form {
   display: block;
@@ -112,9 +111,8 @@
 
   margin-left: auto;
   margin-right: auto;
-  padding: 8px 24px ;
+  padding: 8px 24px;
   display: flex;
-
 
   font-size: 16px;
   font-weight: 500;
@@ -129,47 +127,39 @@
 
 .footer-subscribe-icon {
   margin-left: 16px;
-} 
+}
 
-
-
-
-@media screen  and (min-width:768px){
+@media screen and (min-width: 768px) {
   .footer-container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
   }
 
-  .footer-logo{
+  .footer-logo {
     margin-right: 24px;
-  
   }
 
   .footer-subscribe-form {
     display: flex;
   }
 
-  .footer-input{
+  .footer-input {
     width: 264px;
   }
 }
 
-
-
-
-@media screen  and (min-width:1158px){
+@media screen and (min-width: 1158px) {
   .footer-container {
     flex-wrap: nowrap;
     text-align: start;
     align-items: baseline;
   }
-  .footer-logo{
+  .footer-logo {
     margin-right: 120px;
-  
   }
 
-  .footer-input{
+  .footer-input {
     margin-bottom: 0;
   }
 
@@ -177,7 +167,6 @@
     margin-left: 0;
     margin-right: 0;
   }
-
 }
 
 /*===================== Footer========================= */
@@ -237,9 +226,9 @@
   .footer .social-list {
     gap: 16px;
   } */
-  /* ===================== Footer ========================*/
-  
-  /* ============== footer form =========== */
+/* ===================== Footer ========================*/
+
+/* ============== footer form =========== */
 /* .footer-form {
     display: block;
     margin-left: 80px;
@@ -302,5 +291,5 @@
   .footer-subscribe-icon {
     margin-left: 16px;
   } */
-  
-  /* ============== footer form =========== */
+
+/* ============== footer form =========== */
