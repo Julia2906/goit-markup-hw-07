@@ -85,6 +85,25 @@
     gap: 40px;
   }
 
+  .logo {
+  display: flex;
+  margin-right: 76px;
+  padding: 24px 0;
+
+  font-family: var(--second-font);
+  color: var(--global-color-blue);
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.studio {
+  color: var(--second-text-color);
+}
+
   .link {
     display: inline-block;
     padding: 24px 0;
@@ -163,4 +182,24 @@
     display: flex;
     gap: 40px;
   }
+
+  .logo {
+  display: flex;
+  margin-right: 76px;
+  padding: 24px 0;
+
+  font-family: var(--second-font);
+  color: var(--global-color-blue);
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.studio {
+  color: var(--second-text-color);
+}
+
 }
