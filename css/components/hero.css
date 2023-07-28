@@ -1,55 +1,55 @@
 /* ==================== Hero ===================== */
+
 .hero {
-    background-color: var(--second-text-color);
-    padding: 188px 0;
-  
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url(../images/people-office.jpg);
-    max-width: 1440px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-  }
-  
-  .hero-button {
-    display: block;
-    padding: 16px 32px;
-    border-radius: 4px;
-    min-width: 169px;
-  
-    transition-property: background-color;
-    transition-duration: var(--transition-dur);
-    transition-timing-function: var(--transition-func);
-  
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    font-family: inherit;
-    background-color: var(--global-color-blue);
-    color: var(--background-color-white);
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.64px;
-    font-weight: 500;
-    cursor: pointer;
-    border: none;
-  }
-  
-  .hero-button:hover,
-  .hero-button:focus {
-    background-color: var(--active-button);
-  }
-  
-  .hero-title {
-    margin-bottom: 48px;
-    max-width: 496px;
-  
-    color: var(--background-color-white);
-    font-size: 56px;
-    line-height: 1.07;
-    letter-spacing: 1.12px;
-  }
-  
-  /* ===================== Hero =======================*/
-  
+  background-color: var(--second-text-color);
+  padding: 188px 0;
+
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office.jpg);
+  max-width: 1440px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero-button {
+  display: block;
+  padding: 16px 32px;
+  border-radius: 4px;
+  min-width: 169px;
+
+  transition-property: background-color;
+  transition-duration: var(--transition-dur);
+  transition-timing-function: var(--transition-func);
+
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  font-family: inherit;
+  background-color: var(--global-color-blue);
+  color: var(--background-color-white);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  font-weight: 500;
+  cursor: pointer;
+  border: none;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--active-button);
+}
+
+.hero-title {
+  margin-bottom: 48px;
+  max-width: 496px;
+
+  color: var(--background-color-white);
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 1.12px;
+}
+
+/* ===================== Hero =======================*/
