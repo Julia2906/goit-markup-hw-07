@@ -1,5 +1,144 @@
-/*=================== Features ===================== */
 .visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.features{
+  padding: 96px 0;
+}
+
+.features-icon {
+  display: none;
+}
+
+.features .title {
+
+  margin-bottom: 8px;
+text-align: center;
+  color: var(--second-text-color);
+  font-size: 36px;
+font-weight: 700;
+line-height: 1.1;
+letter-spacing: 0.72px;
+text-transform: capitalize;
+}
+
+.features-description {
+  color: var(--global-text-color);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+.features-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  /* gap: 72px; */
+}
+
+.features-item{
+  max-width: 396px;
+}
+.features-item:not(:last-child) {
+  margin-bottom: 72px;
+}
+
+
+@media screen and (min-width:768px) {
+
+  .features-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+
+  .features-item {
+    flex-direction: column;
+    max-width: 356px;
+    align-items: flex-start;
+    gap: 8px;
+    flex-basis: calc((100%-30px)/2);
+  }
+
+  .features .title {
+    text-align: left;
+  }
+}
+
+
+  @media screen and (min-width:1158px) {
+
+    .features {
+      padding: 120px 0 120px;
+    }
+
+    .features .title {
+      font-size: 20px;
+      line-height: 1.2;
+      letter-spacing: 0.02em;
+      font-weight: 500;
+    }
+    
+    .features-list {
+      display: flex;
+      gap: 24px;
+    }
+    
+    .features-item {
+      max-width: 264px;
+      flex-direction: column;
+    }
+
+  .features-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    border-radius: 4px;
+    background-color: #f4f4fd;
+    height: 112px;
+    margin-bottom: 8px;
+  }
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=================== Features ===================== */
+/* .visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -12,10 +151,10 @@
     clip: rect(0 0 0 0);
     overflow: hidden;
   }
-  /* 
+  
   .features {
     padding: 120px 0 120px;
-  } */
+  }
   
   .features .title {
     margin-bottom: 8px;
@@ -52,5 +191,5 @@
     background-color: #f4f4fd;
     height: 112px;
     margin-bottom: 8px;
-  }
+  } */
   /* ================ Features =========================*/

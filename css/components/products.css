@@ -1,4 +1,12 @@
-.products {
+.products{
+  display: none;
+}
+
+@media screen and (min-width:1158px)
+{
+
+  .products {
+    display: block;
     padding-top: 0;
     padding-bottom: 120px;
   }
@@ -7,4 +15,18 @@
     display: flex;
     gap: 24px;
   }
+}
+
+
+
+
+/* .products {
+    padding-top: 0;
+    padding-bottom: 120px;
+  }
+  
+  .products-list {
+    display: flex;
+    gap: 24px;
+  } */
   
