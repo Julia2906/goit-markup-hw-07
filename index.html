@@ -546,14 +546,17 @@
       </div>
     </div>
 
-    <div class="mobile-menu js-menu-container is-open" id="mobile-menu" >
-      <button class="close-button js-close-menu" type="button">
-        <svg width="8" height="8">
+    <div class="mobile-menu hidden-window js-menu-container" id="mobile-menu" >
+      <div class="mobile-menu-form">
+        <button class="close-button js-close-menu" type="button" data-modal-close="">
+        <svg width="8" height="8" aria-label="close">
           <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
         </svg>
       </button>
-      <nav class="mobile-nav">
-        <ul>
+    </div>
+      
+     <nav class="mobile-nav">
+        <ul class="mobile-nav-list list">
           <li class="mobile-menu-item">
             <a class="link mobile-menu-link link-active" href="">Studio</a>
           </li>
@@ -565,15 +568,16 @@
           </li>
         <address class="mobile-address">
           <ul class="mobile-menu-contacts">
-            <li class="mobile-menu-contact">
-              <a class="link mobile-menu-contact-link" href="tel:+11 (000) 111-11-11">+11 (000) 111-11-11</a>
+            <li class="mobile-menu-contact list">
+              <a class="link mobile-menu-tel-link" href="tel:+11 (000) 111-11-11">+11 (000) 111-11-11</a>
             </li>
             <li class="mobile-menu-contact">
-              <a class="link mobile-menu-contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+              <a class="link mobile-menu-email-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
             </li>
           </ul>
         </address>
-        <ul class="list social-list">
+        <div class="mobile-menu-social">
+          <ul class="list social-list">
             <li class="social-item">
               <a class="social-link" href="">
                 <svg class="social-icon" width="24" height="24">
@@ -610,8 +614,10 @@
                 </svg>
               </a>
             </li>
-        </ul>
-      </nav>
+         </ul>
+        </div>
+        
+     </nav>
     </div>
 
     <script

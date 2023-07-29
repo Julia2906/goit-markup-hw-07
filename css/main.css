@@ -1,8 +1,9 @@
+@import './utils/variables.css';
 
 @import './base/container.css';
 @import './base/common.css';
 @import './base/section.css';
-@import './utils/variables.css';
+
 @import './layout/header.css';
 @import './layout/footer.css';
 @import './layout/mobile-menu.css';
@@ -12,4 +13,3 @@
 @import './components/products.css';
 @import './components/team.css';
 @import './components/customer.css';
-
