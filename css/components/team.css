@@ -12,7 +12,7 @@
   background-color: var(--background-clor-grey);
 }
 
-.team-title{
+.team-title {
   text-align: center;
   font-size: 36px;
   font-style: normal;
@@ -50,7 +50,6 @@
 
 .team-container {
   padding: 32px 0;
-  
 }
 
 .team-name {
@@ -67,6 +66,7 @@
   text-align: center;
   color: var(--global-text-color);
   font-size: 16px;
+  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
   margin-bottom: 8px;
@@ -115,18 +115,21 @@
   .team-list {
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 24px;
+    gap: 64px 24px;
+  }
+  .team-item {
+    margin: 0px;
   }
 }
 
 @media screen and (min-width: 1158px) {
-  .team .container {
-    padding: 0 16px;
+  .team-list {
+    flex-wrap: nowrap;
+    column-gap: 24px;
   }
 
-  .team-list {
-    display: flex;
-    gap: 24px;
+  .team-item {
+    margin: 0px;
   }
 }
 
