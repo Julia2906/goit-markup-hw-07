@@ -52,7 +52,7 @@
   max-width: 396px;
 }
 
-.features-item:not(:last-child) {
+.features-item:not(last-child) {
   margin-bottom: 72px;
 }
 
@@ -96,16 +96,19 @@
     gap: 24px; */
     flex-wrap: nowrap;
     row-gap: 0;
+    margin: 0 auto;
   }
 
   .features-item {
     max-width: 264px;
-    /* flex-direction: column; */
-    margin-bottom: 72px;
+    flex-direction: column;
+    margin-bottom: 0;
+    flex-basis: auto;
   }
-  /* .features-item: (: last-child) {
+
+  .features-item:not(last-child) {
     margin-bottom: 0px;
-  } */
+  }
 
   .features-icon {
     display: flex;
