@@ -173,7 +173,7 @@
   }
 
   .link-auth {
-    display: inline-block;
+    display: block;
     transition-property: color;
     transition-duration: var(--transition-dur);
     transition-timing-function: var(--transition-func);

@@ -41,7 +41,6 @@
 
 .features-list {
   display: flex;
-  align-items: center;
   justify-content: center;
   flex-wrap: wrap;
 
@@ -58,18 +57,15 @@
 
 @media screen and (min-width: 768px) {
   .features-list {
-    display: flex;
+    min-width: 736px;
+    flex-direction: row;
     flex-wrap: wrap;
-    gap: 24px;
+    gap: 72px 24px;
   }
 
   .features-item {
-    flex-direction: column;
-    max-width: 356px;
-    align-items: flex-start;
-    margin-bottom: 72px;
-    gap: 8px;
-    flex-basis: calc((100%-30px) / 2);
+    display: block;
+    width: 356px;
   }
 
   .features .title {
@@ -79,7 +75,7 @@
 
 @media screen and (min-width: 1158px) {
   .features {
-    max-width: 1128px;
+    max-width: 1158px;
     padding: 120px 0 120px;
     margin: 0 auto;
   }

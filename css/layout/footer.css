@@ -30,8 +30,6 @@
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
-
-  margin-bottom: 72px;
 }
 
 .footer .studio {
@@ -100,7 +98,7 @@
   padding-top: 8px;
   padding-bottom: 8px;
 
-  max-width: 380px;
+  max-width: 398px;
   height: 40px;
   border: 1px solid var(--background-color-white);
   background-color: transparent;
@@ -108,7 +106,7 @@
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.48px;
-
+  opacity: 0.30000001192092896;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   color: var(--background-color-white);
@@ -150,18 +148,21 @@
 @media screen and (min-width: 768px) {
   .footer {
     padding: 96px 0;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
   }
 
   .footer-container {
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
+    align-items: baseline;
     margin: 0 auto;
     gap: 72px 24px;
     padding-left: 93px;
+  }
+
+  .footer-text {
+    margin: 0;
   }
 
   .footer-logo {
@@ -176,6 +177,7 @@
     text-align: left;
     max-width: 208px;
     margin-right: 80px;
+    margin-bottom: 0;
   }
 
   .footer-form {
