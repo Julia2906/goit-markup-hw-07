@@ -169,7 +169,6 @@
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.32px;
-    color: var(--second-text-color);
   }
 
   .link-auth {
