@@ -146,7 +146,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 56px;
+    gap: 36px;
+
+    @media screen and (min-width:428px){
+      gap: 56px;
+    }
+      
+    }
   }
   .mobile-menu-social-media {
     width: 40px;
@@ -190,3 +196,8 @@
     overflow: hidden;
   }
 }
+
+ @media screen and (min-width:428px){
+      .mobile-menu-social-media-list{
+      gap: 56px;}
+    }
