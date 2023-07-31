@@ -45,7 +45,7 @@
 }
 
 .team-list:not(last-child) {
-  margin-bottom: 72px;
+  row-gap: 72px;
 }
 
 .team-container {
